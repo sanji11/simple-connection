@@ -112,9 +112,6 @@ describe('Test integration with mongo db', () => {
       expect(ops2.result).to.be.a('object');
       expect(ops2.result).to.have.property('ok');
       expect(ops2.result.ok).to.be.equal(1);
-
     });
-
-
   });
 });
